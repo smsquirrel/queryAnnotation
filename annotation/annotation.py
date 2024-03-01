@@ -159,8 +159,8 @@ if __name__ == "__main__":
     Please provide the reasons for your rating and the final score.
     Please reply in JSON format, including two fields: "reason", "score"."""
     query_generation_prompt = """Please play the role of a programmer who is searching for code. 
-    For a function-level code and its functional summary (to help you understand the function's purpose) provided by the user, please provide 5 diverse queries, each of which can be used to search for that function on a search engine.
-    Please note, reply in JSON format, which includes a field "Query", the corresponding value is a list of 5 queries."""
+    For a function-level code and its functional summary (to help you understand the function's purpose) provided by the user, please provide a query, which can be used to search for that function on a search engine.
+    Please note, reply in JSON format, which includes a field "Query"."""
     verification_prompt = """Please play the role of a programming expert. For the given user queries and function pairs, please judge whether the code can meet the needs of the user's query based on the following principles:
 1. The code can answer and exceed the requirements for query needs (3 points);
 2. The code can satisfy a certain category of query needs (2 points);
