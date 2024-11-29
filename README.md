@@ -132,4 +132,4 @@ python main.py \
 ```
 
 ### Dataset
-The annotated Query4Code dataset will be made public in the end.
+The annotated Query4Code dataset can be accessed through this link: https://drive.google.com/file/d/1BvaDozLAGQX95r33dYe9raV2Z4PYzNC_/view?usp=sharing
